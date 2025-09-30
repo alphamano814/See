@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CollegeGuide Nepal - Find Your Perfect College</title>
+    <meta name="description" content="Search, compare and choose the right college in Nepal. Compare programs, fees, facilities and reviews across 1000+ colleges." />
+    <meta name="author" content="CollegeGuide Nepal" />
+    <meta name="keywords" content="Nepal colleges, education, university, admission, TU, KU, engineering, medical, management" />
+
+    <meta property="og:title" content="CollegeGuide Nepal - Find Your Perfect College" />
+    <meta property="og:description" content="Search, compare and choose the right college in Nepal. Compare programs, fees, facilities and reviews across 1000+ colleges." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  </head>
+
+  <body>
+    <script>
+      // GitHub Pages SPA support
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
